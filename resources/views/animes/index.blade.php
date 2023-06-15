@@ -19,6 +19,7 @@
             <th>Estreia</th>
             <th>Músicas</th>
             <th>Ações</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
