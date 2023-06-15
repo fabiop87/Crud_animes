@@ -1,0 +1,126 @@
+/* Estilos para containers */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  /* Estilos para divisões */
+  .division {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para formulários */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para parágrafos */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para botões */
+  button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /*
+  <div class="container">
+  <div class="division">
+    <p>Conteúdo da divisão</p>
+  </div>
+  
+  <table class="table">
+    <tr>
+      <th>Cabeçalho</th>
+      <th>Cabeçalho</th>
+    </tr>
+    <tr>
+      <td>Dado</td>
+      <td>Dado</td>
+    </tr>
+  </table>
+  
+  <form class="form">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name">
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email">
+    
+    <input type="submit" value="Enviar">
+  </form>
+  
+  <p>Parágrafo de exemplo</p>
+  
+  <img src="imagem.jpg" alt="Imagem de exemplo">
+  
+  <a href="#" class="button">Botão</a>
+  <a href="#">Link</a>
+</div>
+*/
