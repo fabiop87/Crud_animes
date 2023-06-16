@@ -49,7 +49,7 @@ class AnimeController extends Controller
     
         Anime::create($data);
 
-        return redirect()->route('animes.index');
+        return redirect()->route('animes.index')->with('msg','Bananinha');
     }
 
     /**
@@ -88,7 +88,7 @@ class AnimeController extends Controller
 
         $anime->update($data);
 
-        return redirect()->route('animes.index');
+        return redirect()->route('animes.index')->with('msg','updateado');
     }
 
     /**
@@ -100,6 +100,6 @@ class AnimeController extends Controller
         $anime = Anime::findOrFail($id);
         $anime->delete();
 
-        return redirect()->route('animes.index');
+        return redirect()->route('animes.index')->with('msg', 'excluido');
     }
 }
