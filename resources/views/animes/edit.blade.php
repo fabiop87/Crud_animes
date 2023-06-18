@@ -1,5 +1,5 @@
 <!-- resources/views/animes/edit.blade.php -->
-@extends('layourts.jhonson')
+@extends('layouts.jhonson')
 @include('layouts.navigation')
 
 @section('content')

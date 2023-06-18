@@ -139,7 +139,10 @@
         
         <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
             
-            fabio@teste.com banana00
+            
+
+            <a style="background: #ef4444" href="/admin">Filament</a>
+            <a style="background: blue" href="/animes">Animes manual</a>
         </div>
     </body>
 </html>
