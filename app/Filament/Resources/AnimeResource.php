@@ -29,7 +29,7 @@ class AnimeResource extends Resource
                 Forms\Components\TextInput::make('nome')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\FileUpload::make('imagem')->directory('images')
+                Forms\Components\FileUpload::make('imagem')->image()->directory('images')
                     ->dehydrated(fn ($state) => filled($state)),
                 Forms\Components\TextInput::make('episodios')
                     ->required(),

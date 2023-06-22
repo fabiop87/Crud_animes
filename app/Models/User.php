@@ -42,4 +42,20 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function canAccessFilament(): bool
+    {
+        $adminEmails = [
+            'fabio@teste.com',
+        ];
+
+        return in_array($this->email, $adminEmails);
+    }
+
+
+
+
+
+
+
 }
