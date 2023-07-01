@@ -31,6 +31,7 @@
  
     <div class="container">
        <h1> Welcome, {{ Auth::user()->name }}</h1>
+       awawa
     </div>
 </body>
 </html>
